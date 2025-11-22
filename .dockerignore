@@ -1,5 +1,22 @@
-README.md
-local-tester.py
-sample_agent.py
+# Ignore git repo
 .git
 .gitignore
+
+# Ignore local environment files
+.env
+*.pyc
+__pycache__/
+
+# Ignore local caches and libraries
+.cache/
+venv/
+.env/
+.venv/
+
+# Ignore raw data 
+data/*.pth
+data/*.npz
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
